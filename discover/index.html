@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How Discover works</title>
+  <meta name="description" content="How Vanilla finds new posts from the sites you read, and what it does and doesn't download.">
+  <meta property="og:site_name" content="Vanilla">
+  <meta property="og:title" content="How Discover works">
+  <meta property="og:description" content="How Vanilla finds new posts from the sites you read, and what it does and doesn't download.">
+  <meta property="og:image" content="https://vanilla.ozbe.dev/icon.png">
+  <meta property="article:published_time" content="2026-10-19T12:00:00Z">
+  <link rel="canonical" href="https://vanilla.ozbe.dev/discover/">
+  <link rel="alternate" type="application/rss+xml" title="Vanilla" href="https://vanilla.ozbe.dev/feed.xml">
+  <link rel="icon" href="../icon.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <main>
+    <article>
+    <h1>How Discover works</h1>
+    <p>Discover lists new posts from the sites you read, so you don't have to go looking for them. It's kept apart from your extracts: nothing is added to your library until you choose to save it. On iPhone, Discover is a tab at the bottom of the screen. On iPad and Mac, it's in the sidebar.</p>
+
+    <h2>Which sites you follow</h2>
+    <p>A site is followed once you've saved two extracts from it. Vanilla's own site is followed from the start, which is how this post got here. Tap Sites in Discover to see them all:</p>
+    <ul>
+      <li>Turn a site on or off. A site you turn on stays followed however many extracts it has, and one you turn off stays off.</li>
+      <li>Turn off Follow New Sites if you'd rather choose every site yourself.</li>
+      <li>Use Add Feed to follow a site by its address, before you've saved anything from it.</li>
+    </ul>
+    <p>You can also stop following a site from any of its posts.</p>
+
+    <h2>How it finds a site's posts</h2>
+    <p>Most sites publish a feed: a list of their latest posts in RSS, Atom or JSON Feed. When you save an extract, Vanilla notes the feed the page links to. When a page doesn't link to one, Vanilla tries a few addresses where feeds are usually kept (such as /feed and /rss.xml). If it still finds nothing, it tries that site again a month later.</p>
+
+    <h2>When it checks</h2>
+    <p>Vanilla checks feeds while the app is open, and you can pull down on Discover to check every site straight away.</p>
+    <p>A site isn't checked every time. Vanilla checks a feed as often as the site tends to post, between every two hours and once a week. It never checks sooner than the site asks. A site that fails to answer is left a while before it's tried again, and a little longer each time.</p>
+
+    <h2>What it downloads</h2>
+    <p>Only the feeds. Vanilla never downloads the articles in them in the background. An article is fetched only when you open it.</p>
+    <p>When a feed hasn't changed since the last check, the site can say so without sending it again, so most checks are tiny.</p>
+
+    <h2>What it lists</h2>
+    <p>Posts from the last week. The first time Vanilla checks a site, it lists that site's three newest posts, and after that up to ten new ones per check, so following a busy site doesn't flood the list. Posts you've already saved or dismissed are left out.</p>
+    <p>A new post has a dot beside it, and Discover shows how many new posts there are, until you open them.</p>
+
+    <h2>Reading a post</h2>
+    <p>Opening a post shows it the way your extracts look, with its text and images in the reader, but it isn't saved yet. From there:</p>
+    <ul>
+      <li><strong>Save</strong> adds it to your extracts, with no second download.</li>
+      <li><strong>Dismiss</strong> takes it off the list.</li>
+      <li><strong>Stop Following</strong> stops new posts from that site.</li>
+    </ul>
+    <p>You can do the same by swiping a post in the list.</p>
+
+    <h2>Privacy</h2>
+    <p>Vanilla asks each site for its feed directly from your device. There's no Vanilla server in between, and nobody else learns which sites you follow. The sites you follow and the posts you've dismissed sync between your devices with iCloud. The posts themselves stay on each device and are cleared after 30 days.</p>
+
+    <p>Vanilla's own news is posted here, at <a href="https://vanilla.ozbe.dev/">vanilla.ozbe.dev</a>. If you'd rather not see it, turn Vanilla off in Sites. If you have questions, suggestions or jokes about Discover, head to <a href="https://vanilla.ozbe.dev/feedback/">https://vanilla.ozbe.dev/feedback/</a>.</p>
+    </article>
+    <footer><a href="../">Back to Vanilla</a></footer>
+  </main>
+</body>
+</html>

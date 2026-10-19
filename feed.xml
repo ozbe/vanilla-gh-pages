@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vanilla</title>
+    <link>https://vanilla.ozbe.dev/</link>
+    <atom:link href="https://vanilla.ozbe.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>News about Vanilla, the app for saving web pages and reading them later.</description>
+    <language>en</language>
+    <image>
+      <url>https://vanilla.ozbe.dev/icon.png</url>
+      <title>Vanilla</title>
+      <link>https://vanilla.ozbe.dev/</link>
+    </image>
+    <lastBuildDate>Mon, 19 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How Discover works</title>
+      <link>https://vanilla.ozbe.dev/discover/</link>
+      <guid isPermaLink="true">https://vanilla.ozbe.dev/discover/</guid>
+      <pubDate>Mon, 19 Oct 2026 12:00:00 GMT</pubDate>
+      <description>How Vanilla finds new posts from the sites you read, and what it does and doesn't download.</description>
+    </item>
+    <item>
+      <title>Welcome to Vanilla</title>
+      <link>https://vanilla.ozbe.dev/welcome/</link>
+      <guid isPermaLink="true">https://vanilla.ozbe.dev/welcome/</guid>
+      <pubDate>Wed, 07 Oct 2026 11:54:00 GMT</pubDate>
+      <description>A short tour of reading, adding and finding extracts in Vanilla.</description>
+    </item>
+  </channel>
+</rss>

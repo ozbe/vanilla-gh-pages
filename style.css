@@ -1,18 +1,19 @@
 :root {
   color-scheme: light dark;
-  --bg: #ffffff;
-  --fg: #1c1c1e;
-  --muted: #6c6c70;
-  --link: #0a6cdc;
-  --rule: #e5e5ea;
+  /* The app's own page (Paper.swift): sepia in light mode, a warm near-black in dark mode. */
+  --bg: #f4ecd8;
+  --fg: #3b2e22;
+  --muted: #6e5a45;
+  --link: #9a5b13;
+  --rule: rgb(91 70 54 / .25);
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #000000;
-    --fg: #ffffff;
-    --muted: #a1a1a8;
-    --link: #0b84ff;
-    --rule: #2c2c2e;
+    --bg: #1e1a16;
+    --fg: #eae1d3;
+    --muted: #b2a694;
+    --link: #e0a458;
+    --rule: rgb(233 220 200 / .18);
   }
 }
 * { box-sizing: border-box; }

@@ -11,14 +11,7 @@
       <title>Vanilla</title>
       <link>https://vanilla.ozbe.dev/</link>
     </image>
-    <lastBuildDate>Sat, 07 Nov 2026 07:00:00 GMT</lastBuildDate>
-    <item>
-      <title>Discover lists fewer posts</title>
-      <link>https://vanilla.ozbe.dev/discover/#what-it-lists</link>
-      <guid isPermaLink="false">vanilla-2026-11-07-discover-limits</guid>
-      <pubDate>Sat, 07 Nov 2026 07:00:00 GMT</pubDate>
-      <description>Discover now lists each site's three newest posts from the last three days, instead of everything from the past week, so a few busy sites can't fill it with hundreds of posts. Change both in Sites, with Posts per Site and Show Posts From. Dismissing every post leaves the list empty until there's something new, and posts are cleared after 14 days rather than 30.</description>
-    </item>
+    <lastBuildDate>Mon, 19 Oct 2026 12:00:00 GMT</lastBuildDate>
     <item>
       <title>How Discover works</title>
       <link>https://vanilla.ozbe.dev/discover/</link>

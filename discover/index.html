@@ -10,7 +10,7 @@
   <meta property="og:description" content="How Vanilla finds new posts from the sites you read, and what it does and doesn't download.">
   <meta property="og:image" content="https://vanilla.ozbe.dev/icon.png">
   <meta property="article:published_time" content="2026-10-19T12:00:00Z">
-  <meta property="article:modified_time" content="2026-10-21T12:00:00Z">
+  <meta property="article:modified_time" content="2026-11-07T12:00:00Z">
   <link rel="canonical" href="https://vanilla.ozbe.dev/discover/">
   <link rel="alternate" type="application/rss+xml" title="Vanilla" href="https://vanilla.ozbe.dev/feed.xml">
   <link rel="icon" href="../icon.png" media="(prefers-color-scheme: light)">
@@ -49,8 +49,9 @@
     <p>Only the feeds. Vanilla never downloads the articles in them in the background. An article is fetched only when you open it.</p>
     <p>When a feed hasn't changed since the last check, the site can say so without sending it again, so most checks are tiny.</p>
 
-    <h2>What it lists</h2>
-    <p>Posts from the last week. The first time Vanilla checks a site, it lists that site's three newest posts, and after that up to ten new ones per check, so following a busy site doesn't flood the list. Posts you've already saved or dismissed are left out, and a post you save on one device leaves the list on your others.</p>
+    <h2 id="what-it-lists">What it lists</h2>
+    <p>Each site's three newest posts from the last three days, so a site that posts all day doesn't fill the list. You can change both in Sites, with Posts per Site and Show Posts From.</p>
+    <p>Posts you've saved or dismissed are left out, and they still count toward a site's three, so dismissing everything leaves the list empty until there's something new. A post you save on one device leaves the list on your others.</p>
     <p>A new post has a dot beside it, and Discover shows how many new posts there are, until you open them.</p>
 
     <h2>Promotions</h2>
@@ -71,7 +72,7 @@
     <p>When a site's feed carries its whole article, the post opens on the watch as an article, with nothing else downloaded. Otherwise you see its summary, with Save to add it to your extracts and Open Page to read the original. Swipe a post to save or dismiss it. The watch uses the feed and the rules to mark promotions, but not the on-device model.</p>
 
     <h2>Privacy</h2>
-    <p>Vanilla asks each site for its feed directly from your device. There's no Vanilla server in between, and nobody else learns which sites you follow. Deciding which posts are promotions happens on your device too. The sites you follow and the posts you've opened or dismissed sync between your devices with iCloud. The posts themselves stay on each device and are cleared after 30 days.</p>
+    <p>Vanilla asks each site for its feed directly from your device. There's no Vanilla server in between, and nobody else learns which sites you follow. Deciding which posts are promotions happens on your device too. The sites you follow and the posts you've opened or dismissed sync between your devices with iCloud. The posts themselves stay on each device and are cleared after 14 days.</p>
 
     <p>Vanilla's own news is posted here, at <a href="https://vanilla.ozbe.dev/">vanilla.ozbe.dev</a>. If you'd rather not see it, turn Vanilla off in Sites. If you have questions, suggestions or jokes about Discover, head to <a href="https://vanilla.ozbe.dev/feedback/">https://vanilla.ozbe.dev/feedback/</a>.</p>
     </article>
